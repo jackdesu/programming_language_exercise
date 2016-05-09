@@ -10,8 +10,9 @@ def win_by_lin(game, who, row):
                 if game[y][x] != who:
                     win = False
                     break
-        if win:
-            return win
+        else:
+            if win:
+                return win
     return win
 
 
